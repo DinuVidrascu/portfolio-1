@@ -1,0 +1,34 @@
+.btn-outline {
+   height: 48px;
+   border-radius: 5px;
+   padding: 12px 20px;
+   background-color: var(--accent);
+   text-decoration: none;
+   border: 2px solid #000;
+   color: var(--white);
+   display: flex;
+   column-gap: 10px;
+   align-items: center;
+ 
+   transition: all 0.2s ease-in;
+  }
+ 
+  .btn-outline:last-child{
+   margin-left: 20px;
+  }
+ 
+  .btn-section{
+   display: flex;
+   align-items: center;
+  }
+ 
+  .btn-outline:hover {
+   opacity: 0.8;
+   border: solid 1px var(--accent);
+   box-shadow: 1px 1px 9px rgb(55, 55, 55);
+  }
+ 
+  .btn-outline:active {
+   position: relative;
+   top: 1px;
+  }
