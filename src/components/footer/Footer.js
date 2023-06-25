@@ -1,9 +1,9 @@
-import "./style.css"
 
 import instagram from "./../../img/icons/instagram.svg"
 import github from "./../../img/icons/github.svg"
 import facebook from "./../../img/icons/facebook.svg"
 import linkedin from "./../../img/icons/linkedin.svg"
+import "./style.css"
 
 function Footer() {
    return (

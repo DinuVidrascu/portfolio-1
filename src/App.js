@@ -1,4 +1,3 @@
-import "./styles/main.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -10,6 +9,8 @@ import Contact from "./pages/contact/Contact";
 import Project from "./pages/project/Project";
 
 import ScrollToTop from "./utils/scrollToTop";
+import "./styles/media.css"
+import "./styles/main.css";
 
 function App() {
   return (

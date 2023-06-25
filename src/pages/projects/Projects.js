@@ -1,8 +1,9 @@
-import "./style.css"
+
 
 import MyProject from "../../components/myproject/MyProject";
 
 import { projects } from "../../helpers/projectsList";
+import "./style.css"
 
 
 function Projects() {

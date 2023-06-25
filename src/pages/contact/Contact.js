@@ -1,5 +1,6 @@
 import "./style.css"
 
+
 function Contact() {
    return (
       <main className="section">
