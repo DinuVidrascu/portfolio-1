@@ -1,21 +1,19 @@
 
-import project01 from "./../img/projects/01.jpg";
-import project01Big from "./../img/projects/01-big.jpg";
+import project01 from "./../img/projects/imgmini1.jpg";
+import project01Big from "./../img/projects/imgbig1.jpg";
 import project02 from "./../img/projects/02.jpg";
 import project02Big from "./../img/projects/02-big.jpg";
 import project03 from "./../img/projects/03.jpg";
 import project03Big from "./../img/projects/03-big.jpg";
 
-
-
 const projects = [
    {
-      title: 'Gamig streming portal',
-      skills: 'React, Node.js, MongoDB',
+      title: 'Marvel Comics',
+      skills: 'React.JS, Scss',
       img: project01,
       imgBig: project01Big,
-      gitHubLink:'https://github.com',
-      projectLink: 'https://google.com',
+      gitHubLink:'https://github.com/DinuVidrascu/marvel_React',
+      projectLink: 'https://marvel-react-bay.vercel.app/',
    },
    {
       title: 'Video service',

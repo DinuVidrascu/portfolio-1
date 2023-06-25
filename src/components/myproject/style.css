@@ -16,4 +16,5 @@
    line-height: 1.3;
    font-weight: 700;
    color: var(--project-card-text);
+   text-align: center;
   }

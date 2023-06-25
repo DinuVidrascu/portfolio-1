@@ -25,7 +25,7 @@ function Footer() {
               </li>
             </ul>
             <div className="copyright">
-              <p>Dinu 2023</p>
+              <p>Copyright © 2023. All rights are reserved</p>
             </div>
           </div>
         </div>

@@ -9,6 +9,8 @@ import Contact from "./pages/contact/Contact";
 import Project from "./pages/project/Project";
 
 import ScrollToTop from "./utils/scrollToTop";
+import ArowUp from "./components/arow/ArowUp"
+
 import "./styles/media.css"
 import "./styles/main.css";
 
@@ -25,6 +27,7 @@ function App() {
           <Route path="/contacts" element={<Contact />} />
         </Routes>
         <Footer />
+        <ArowUp/>
       </Router>
     </div>
   );

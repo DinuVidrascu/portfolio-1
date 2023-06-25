@@ -1,14 +1,14 @@
 
-
 import MyProject from "../../components/myproject/MyProject";
-
 import { projects } from "../../helpers/projectsList";
 import "./style.css"
 
 
 function Projects() {
-   return (
 
+
+   return (
+      
       <main className="section">
          <div className="container">
             <h2 className="title-1">Projects</h2>
@@ -16,7 +16,8 @@ function Projects() {
 
                {projects.map((project, index) => {
                   return <MyProject 
-                  key={index} 
+                  key={index}
+                  skils={project.skills} 
                   title={project.title} 
                   img={project.img}
                   index={index} />

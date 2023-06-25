@@ -13,7 +13,7 @@ font-family: 'Poppins', sans-serif;
 
  :root {
    --black: #454545;
-   --black-border: #2D2727;
+   --black-border: #404040;
    --white: #F9FCFB;
    --purple: #F05454;
 
@@ -42,9 +42,6 @@ font-family: 'Poppins', sans-serif;
   --project-card-text: var(--white);
   --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 
-
-
-  
  }
 
  html, 
@@ -73,9 +70,7 @@ font-family: 'Poppins', sans-serif;
    max-width: 1200px;
  }
 
- .none {
-  display: none !important;
- }
+
 
  .title-2 {
   margin-bottom: 20px;
