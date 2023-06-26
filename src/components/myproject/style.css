@@ -1,9 +1,11 @@
 
 .project {
    max-width: 370px;
-   background-color: var(--project-card-bg);
-   box-shadow: var(--box-shadow);
+   background: lightgrey;
+   box-shadow: rgba(80, 80, 128, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
    border-radius: 10px;
+   transition: all .5s ease-in;
+   padding: 10px;
   }
  
   .project__img {
@@ -17,4 +19,14 @@
    font-weight: 700;
    color: var(--project-card-text);
    text-align: center;
+  }
+
+  .project:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project:active {
+   transform: translateY(-1px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   }

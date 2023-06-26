@@ -34,11 +34,11 @@ font-family: 'Poppins', sans-serif;
 
  .dark {
   /* dark mode */
-  --page-bg: #252526;
+  --page-bg: #2e2828;
   --text-color: var(--white);
-  --title-1: orange;
+  --title-1: #fef4f4;
 
-  --project-card-bg: var(--black);
+  --project-card-bg: #f65151;
   --project-card-text: var(--white);
   --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 
