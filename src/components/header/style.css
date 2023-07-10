@@ -7,12 +7,12 @@
    align-items: center;
    text-align: center;
 
-   background-color: #737373;
+   background-color: var(--header-bg);
    background-image: url('./../../img/header-bg.png');
    background-repeat: no-repeat;
    background-size: auto;
    background-position: center center;
-   color: var(--header-text);
+   color: var(--text-color);
  }
 
  .header__wrapper{

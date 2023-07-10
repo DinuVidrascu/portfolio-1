@@ -12,32 +12,39 @@ font-family: 'Poppins', sans-serif;
  } */
 
  :root {
-   --black: #454545;
-   --black-border: #404040;
-   --white: #F9FCFB;
-   --purple: #F05454;
+   --black: #242424;
+   --black-border: #212121;
+   --white: #ffffff;
+   --yellow: #FFCA0F;
+   --green: #5AE3B1;
 
    --text-color: var(--black);
    --dark-bg: var(--black);
    --dark-border: var(--black-border);
    --header-text: var(--white);
-   --accent: var(--purple);
+   --accent: var(--yellow);
 
    /* light mode */
-   --page-bg: var(--white);
+   --strong: var(--black);
+   --header-bg: rgb(209, 209, 209);
+   --page-bg: #ffffff;
    --text-color: var(--black);
    --title-1: var(--accent);
    --project-card-bg: var(--white);
    --project-card-text: var(--black);
+   --card-bg: #d4d7db;
    --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
  }
 
  .dark {
   /* dark mode */
-  --page-bg: #2e2828;
+  --strong: var(--black);
+  --card-bg: #565c5f;
+  --page-bg: #444444;
   --text-color: var(--white);
-  --title-1: #fef4f4;
-
+  --accent: var(--green);
+  --title-1: var(--accent);
+  --header-bg: #272727;
   --project-card-bg: #f65151;
   --project-card-text: var(--white);
   --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);

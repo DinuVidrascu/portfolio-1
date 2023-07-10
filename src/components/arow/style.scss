@@ -13,12 +13,12 @@
    transition: opacity 0.4s;
    opacity: 0.5;
    height: 50px;
-   color: rgb(239, 132, 0);
+   color: var(--accent);
  }
  
  .scrollTop:hover{
    opacity: 1;
-   color: #F05454;
+   color: #bc2222;
  }
  
  @keyframes fadeIn {

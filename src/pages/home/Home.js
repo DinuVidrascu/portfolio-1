@@ -13,11 +13,12 @@ import psSkill from "./../../img/icons/skills/photoshop.svg"
 import "./style.css"
 
 import Header from "../../components/header/Header"
-
+import About from "../../components/about/About"
 function Home() {
    return (
       <>
          <Header />
+         <About/>
 
          <main className="section">
             <div className="title-1">My Skills</div>
