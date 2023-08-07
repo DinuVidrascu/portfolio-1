@@ -26,7 +26,7 @@ font-family: 'Poppins', sans-serif;
 
    /* light mode */
    --strong: var(--black);
-   --header-bg: rgb(209, 209, 209);
+   --header-bg: rgb(150, 150, 150);
    --page-bg: #ffffff;
    --text-color: var(--black);
    --title-1: var(--accent);

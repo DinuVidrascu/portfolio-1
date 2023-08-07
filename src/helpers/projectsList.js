@@ -1,8 +1,8 @@
 
 import project01 from "./../img/projects/imgmini1.jpg";
 import project01Big from "./../img/projects/imgbig1.jpg";
-import project02 from "./../img/projects/02.jpg";
-import project02Big from "./../img/projects/02-big.jpg";
+import project02 from "./../img/projects/imgmini2.jpg";
+import project02Big from "./../img/projects/imgbig2.jpg";
 import project03 from "./../img/projects/03.jpg";
 import project03Big from "./../img/projects/03-big.jpg";
 import project04 from "./../img/projects/new.jpg";
@@ -19,11 +19,12 @@ const projects = [
       projectLink: 'https://marvel-react-bay.vercel.app/',
    },
    {
-      title: 'Video service',
-      skills: 'React, PHP, MySql',
+      title: 'Food service',
+      skills: 'JavaScript, Css, PHP, webpack',
       img: project02,
       imgBig: project02Big,
-      gitHubLink:'https://marvel-react-bay.vercel.app/',
+      gitHubLink:'https://github.com/DinuVidrascu/Food',
+      projectLink: 'https://food-woad.vercel.app/',
    },
    {
       title: 'Video portal',
