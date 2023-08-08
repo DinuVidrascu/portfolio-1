@@ -3,10 +3,12 @@ import project01 from "./../img/projects/imgmini1.jpg";
 import project01Big from "./../img/projects/imgbig1.jpg";
 import project02 from "./../img/projects/imgmini2.jpg";
 import project02Big from "./../img/projects/imgbig2.jpg";
-import project03 from "./../img/projects/03.jpg";
-import project03Big from "./../img/projects/03-big.jpg";
-import project04 from "./../img/projects/new.jpg";
-import project04Big from "./../img/projects/newBig.gif";
+import project03 from "./../img/projects/imgmini3.jpg";
+import project03Big from "./../img/projects/imgbig3.jpg";
+import project04 from "./../img/projects/imgbig4.jpg";
+import project04Big from "./../img/projects/imgbig4.jpg";
+import projectnew from "./../img/projects/new.jpg";
+import projectnewBig from "./../img/projects/newBig.gif";
 
 
 const projects = [
@@ -27,17 +29,26 @@ const projects = [
       projectLink: 'https://food-woad.vercel.app/',
    },
    {
-      title: 'Video portal',
-      skills: 'Vue JS, Node.js, MogoDB',
+      title: 'E-Store',
+      skills: 'React.JS, CSS',
       img: project03,
       imgBig: project03Big,
-      gitHubLink:'https://github.com',
+      gitHubLink:'https://github.com/DinuVidrascu/E-Store',
+      projectLink: 'https://e-store-navy.vercel.app/',
+   },
+   {
+      title: 'Window-Installation',
+      skills: 'Html, Css, JavaScript, Gulp',
+      img: project04,
+      imgBig: project04Big,
+      gitHubLink:'https://github.com/DinuVidrascu/window-store',
+      projectLink: 'https://dinuvidrascu.github.io/window-store/dist/',
    },
    {
       title: 'New Project',
-      skills: '...',
-      img: project04,
-      imgBig: project04Big,
+      skills: 'Loading',
+      img: projectnew,
+      imgBig: projectnewBig,
    },
 
 ]
