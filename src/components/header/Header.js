@@ -1,3 +1,5 @@
+import CV from "../../img/pdf/VIdrascu-Dinu_CV_Front-End.pdf"
+
 import "./style.css"
 function Header() {
    return (
@@ -10,7 +12,7 @@ function Header() {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
-        <a href="#!" className="btn">View CV</a>
+        <a href={CV} target="_blank" title="My-Resume" className="btn">View CV</a>
       </div>
     </header>
    )
